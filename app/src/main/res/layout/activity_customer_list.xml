@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomerListActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="661dp">
+
+        <LinearLayout
+            android:id="@+id/mainlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="즐겨찾기 일괄삭제"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btn_backadd"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="즐겨찾기 추가로 이동"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:typeface="serif"
+            android:layout_marginLeft="15dp"/>
+    </TableRow>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp">
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:text="@string/name"
+            android:textColor="#2196F3"
+            android:textSize="20dp"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="227dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:background="@null"
+                android:hint="ex) 네이버, 네이버 뉴스, naver"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:textSize="15sp"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.5sp"
+            android:background="@drawable/button"
+            android:text="등 록"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

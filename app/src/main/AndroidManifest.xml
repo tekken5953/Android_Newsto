@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.namecard">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="뉴스토"
+        android:roundIcon="@mipmap/ic_launcher_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BookMarkDel" />
+        <activity android:name=".WebviewBook" />
+        <activity android:name=".CustomerListActivity" />
+        <activity android:name=".Bookmark" />
+        <activity android:name=".WebView_news.Webview_dju" />
+        <activity android:name=".WebView_news.Webview_djupotal" />
+        <activity android:name=".WebView_news.Webview_mise" />
+        <activity android:name=".WebView_news.Webview_naverweather" />
+        <activity android:name=".WebView_news.Webview_gyocharo" />
+        <activity android:name=".WebView_news.Webview_sportsseoul" />
+        <activity android:name=".WebView_news.Webview_nocut" />
+        <activity android:name=".WebView_news.Webview_asia" />
+        <activity android:name=".WebView_news.Webview_sportstoday" />
+        <activity android:name=".WebView_news.Webview_segye" />
+        <activity android:name=".WebView_news.Webview_donga" />
+        <activity android:name=".WebView_news.Webview_kyounghyang" />
+        <activity android:name=".WebView_news.Webview_gukmin" />
+        <activity android:name=".WebView_news.Webview_daily" />
+        <activity android:name=".WebView_news.Webview_nate" />
+        <activity android:name=".WebView_news.Webview_chosun" />
+        <activity android:name=".WebView_news.Webview_joongang" />
+        <activity android:name=".WebView_news.Webview_daum" />
+        <activity android:name=".WebView_BroadCast.WebView0" />
+        <activity android:name=".WebView_BroadCast.WebView1" />
+        <activity android:name=".WebView_BroadCast.WebView2" />
+        <activity android:name=".WebView_BroadCast.WebView3" />
+        <activity android:name=".WebView_BroadCast.WebView4" />
+        <activity android:name=".WebView_BroadCast.WebView5" />
+        <activity android:name=".WebView_BroadCast.WebView6" />
+        <activity android:name=".WebView_BroadCast.WebView7" />
+        <activity android:name=".WebView_BroadCast.WebView8" />
+        <activity android:name=".WebView_BroadCast.WebView9" />
+        <activity android:name=".WebView_BroadCast.WebView10" />
+        <activity android:name=".WebView_BroadCast.WebView11" />
+        <activity android:name=".WebView_BroadCast.WebView12" />
+        <activity android:name=".WebView_BroadCast.WebView13" />
+        <activity android:name=".WebView_BroadCast.WebView14" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CustomListviewActivity2" />
+        <activity android:name=".CustomListviewActivity" />
+        <activity android:name=".informationActivity" />
+        <activity android:name=".WebView_news.WebView" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
